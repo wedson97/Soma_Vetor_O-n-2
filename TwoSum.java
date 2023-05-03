@@ -14,9 +14,7 @@ public class TwoSum {
             for(int j = 1;j<entrada.length;j++){
                 if(entrada[i]+entrada[j]==this.target){
                     saida[qtd++]=i;
-                    if(qtd<saida.length){
-                        saida[qtd]=j;
-                    }
+                    saida[qtd] = j;
                 }
             }
         }
